@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Edge Choose a new password  Acelera pyme",
+  "Type": "Screen",
+  "Id": "VvtugyZ5zEWyTUiHfAjNLg",
+  "Reference": "tsUS-rIo6kOAWDBlf2_-Qg/VvtugyZ5zEWyTUiHfAjNLg",
+  "ParentRef": "tsUS-rIo6kOAWDBlf2_-Qg/SgyS_MdCVEWWTMrkhcj3Fw",
+  "Created": "2024-11-05T09:52:20.3256951Z",
+  "Updated": "2024-11-05T09:52:20.3256951Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.6.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.11.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

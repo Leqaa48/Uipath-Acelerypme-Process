@@ -1,0 +1,14 @@
+﻿{
+  "Name": "GRUPO D Suministro de …",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "o_RuKJTuT0CSlhqFBdOv9Q",
+  "Reference": "tsUS-rIo6kOAWDBlf2_-Qg/o_RuKJTuT0CSlhqFBdOv9Q",
+  "ParentRef": "tsUS-rIo6kOAWDBlf2_-Qg/yLGZ6HxBMUq5Rgw-9kz39A",
+  "Created": "2024-11-04T16:10:04.5929681Z",
+  "Updated": "2024-11-04T16:10:04.5929681Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.6.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.11.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

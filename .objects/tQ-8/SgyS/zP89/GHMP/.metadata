@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Soy autónomoa",
+  "Type": "Element",
+  "TaxonomyType": "Dropdown",
+  "Id": "GHMP-eo3f0aFCj1VqaULhA",
+  "Reference": "tsUS-rIo6kOAWDBlf2_-Qg/GHMP-eo3f0aFCj1VqaULhA",
+  "ParentRef": "tsUS-rIo6kOAWDBlf2_-Qg/zP89OFYYjEKNAcEj-iPG6g",
+  "Created": "2024-11-04T12:47:51.003741Z",
+  "Updated": "2024-11-04T12:47:51.003741Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.6.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.11.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

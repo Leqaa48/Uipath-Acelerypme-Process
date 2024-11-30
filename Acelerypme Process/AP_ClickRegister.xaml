@@ -1,0 +1,354 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="AP_ClickRegister" VisualBasic.Settings="{x:Null}" sap2010:WorkflowViewState.IdRef="AP_ClickRegister_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:s="clr-namespace:System;assembly=System.Private.CoreLib" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>System.Linq.Expressions</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Drawing.Common</AssemblyReference>
+      <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Net.Mail</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Mail.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Testing.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities.Design</AssemblyReference>
+      <AssemblyReference>System.Memory.Data</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+      <AssemblyReference>System.Linq.Expressions</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="AP_ClickRegister" sap:VirtualizedContainerService.HintSize="950.4000000000001,2844.8" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <Sequence sap2010:Annotation.AnnotationText="PDD Section: 1.3&#xA;PreCondation: Register button&#xA;PostCondation: Register page opend&#xA;Argument: in_AllData, in_str_AllData" sap:VirtualizedContainerService.HintSize="662.4,2821.6" sap2010:WorkflowViewState.IdRef="Sequence_4">
+      <Sequence.Variables>
+        <Variable x:TypeArguments="s:DateTime" Name="DateTime_StartDate" />
+        <Variable x:TypeArguments="x:String" Default="AP_ClickRegister" Name="str_FileName" />
+      </Sequence.Variables>
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+          <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
+          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
+      <Assign sap:VirtualizedContainerService.HintSize="628.8,113.6" sap2010:WorkflowViewState.IdRef="Assign_1">
+        <Assign.To>
+          <OutArgument x:TypeArguments="s:DateTime">[DateTime_StartDate]</OutArgument>
+        </Assign.To>
+        <Assign.Value>
+          <InArgument x:TypeArguments="s:DateTime">[Now]</InArgument>
+        </Assign.Value>
+      </Assign>
+      <ui:LogMessage DisplayName="Log Message || Start " sap:VirtualizedContainerService.HintSize="628.8,174.4" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="Info" Message="[&quot;Start Date of - &quot;+str_FileName+&quot; &quot;+DateTime_StartDate.ToString]" />
+      <ui:RetryScope DisplayName="Retry Scope" sap:VirtualizedContainerService.HintSize="628.8,2208.8" sap2010:WorkflowViewState.IdRef="RetryScope_2" NumberOfRetries="3" RetryInterval="00:00:05">
+        <ui:RetryScope.ActivityBody>
+          <ActivityAction>
+            <Sequence DisplayName="Action" sap:VirtualizedContainerService.HintSize="587.2,2000.8" sap2010:WorkflowViewState.IdRef="Sequence_23">
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+              <TryCatch DisplayName="Try Catch" sap:VirtualizedContainerService.HintSize="553.6,1940.8" sap2010:WorkflowViewState.IdRef="TryCatch_1">
+                <TryCatch.Try>
+                  <Sequence sap:VirtualizedContainerService.HintSize="516.8,1663.2" sap2010:WorkflowViewState.IdRef="Sequence_20">
+                    <sap:WorkflowViewStateService.ViewState>
+                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                      </scg:Dictionary>
+                    </sap:WorkflowViewStateService.ViewState>
+                    <Sequence DisplayName="Precondetion" sap:VirtualizedContainerService.HintSize="483.2,56.8" sap2010:WorkflowViewState.IdRef="Sequence_5">
+                      <Sequence.Variables>
+                        <Variable x:TypeArguments="x:Boolean" Name="bool_Precondetion" />
+                      </Sequence.Variables>
+                      <sap:WorkflowViewStateService.ViewState>
+                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                          <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                        </scg:Dictionary>
+                      </sap:WorkflowViewStateService.ViewState>
+                      <ui:UiElementExists DisplayName="Element Exists || Register button" Exists="[bool_Precondetion]" sap:VirtualizedContainerService.HintSize="449.6,139.2" sap2010:WorkflowViewState.IdRef="UiElementExists_1">
+                        <ui:UiElementExists.Target>
+                          <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="121f385f-4332-4843-a1dc-e5922edf8ece" InformativeScreenshot="81a0feffeecd976ac92d3ebe37a92eff" Selector="&lt;html app='msedge.exe' title='Inicio sesión | Acelera pyme' /&gt;&lt;webctrl tag='H1' /&gt;">
+                            <ui:Target.TimeoutMS>
+                              <InArgument x:TypeArguments="x:Int32" />
+                            </ui:Target.TimeoutMS>
+                            <ui:Target.WaitForReady>
+                              <InArgument x:TypeArguments="ui:WaitForReady" />
+                            </ui:Target.WaitForReady>
+                          </ui:Target>
+                        </ui:UiElementExists.Target>
+                      </ui:UiElementExists>
+                      <If Condition="[bool_Precondetion]" DisplayName="If || button exists" sap:VirtualizedContainerService.HintSize="449.6,735.2" sap2010:WorkflowViewState.IdRef="If_1">
+                        <sap:WorkflowViewStateService.ViewState>
+                          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                            <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                          </scg:Dictionary>
+                        </sap:WorkflowViewStateService.ViewState>
+                        <If.Then>
+                          <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="416,225.6" sap2010:WorkflowViewState.IdRef="Sequence_7">
+                            <sap:WorkflowViewStateService.ViewState>
+                              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                              </scg:Dictionary>
+                            </sap:WorkflowViewStateService.ViewState>
+                            <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="382.4,165.6" sap2010:WorkflowViewState.IdRef="LogMessage_2" Level="Info" Message="[&quot;Precondetion Success&quot;]" />
+                          </Sequence>
+                        </If.Then>
+                        <If.Else>
+                          <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="416,348" sap2010:WorkflowViewState.IdRef="Sequence_8">
+                            <sap:WorkflowViewStateService.ViewState>
+                              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                              </scg:Dictionary>
+                            </sap:WorkflowViewStateService.ViewState>
+                            <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="382.4,174.4" sap2010:WorkflowViewState.IdRef="LogMessage_3" Level="Error" Message="[&quot;Precondetion Faild&quot;]" />
+                            <Throw Exception="[new System.Exception(&quot;Precondetion Faild :: &quot;+str_FileName)]" sap:VirtualizedContainerService.HintSize="382.4,113.6" sap2010:WorkflowViewState.IdRef="Throw_1" />
+                          </Sequence>
+                        </If.Else>
+                      </If>
+                    </Sequence>
+                    <Sequence DisplayName="Action" sap:VirtualizedContainerService.HintSize="483.2,612" sap2010:WorkflowViewState.IdRef="Sequence_17">
+                      <sap:WorkflowViewStateService.ViewState>
+                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                        </scg:Dictionary>
+                      </sap:WorkflowViewStateService.ViewState>
+                      <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Never" DisplayName="Edge Inicio sesión  Acelera pyme" sap:VirtualizedContainerService.HintSize="449.6,520" sap2010:WorkflowViewState.IdRef="NApplicationCard_5" InteractionMode="DebuggerApi" OpenMode="Never" ScopeGuid="371ef8f8-2c77-4f6a-8598-98df6dd8cc18" Version="V2">
+                        <uix:NApplicationCard.Body>
+                          <ActivityAction x:TypeArguments="x:Object">
+                            <ActivityAction.Argument>
+                              <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+                            </ActivityAction.Argument>
+                            <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="416,280" sap2010:WorkflowViewState.IdRef="Sequence_24">
+                              <sap:WorkflowViewStateService.ViewState>
+                                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                </scg:Dictionary>
+                              </sap:WorkflowViewStateService.ViewState>
+                              <uix:NClick ActivateBefore="True" ClickType="Single" DelayAfter="1" DelayBefore="2" DisplayName="Click || Regístrate ahora" sap:VirtualizedContainerService.HintSize="382.4,218.4" sap2010:WorkflowViewState.IdRef="NClick_4" InteractionMode="Simulate" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="371ef8f8-2c77-4f6a-8598-98df6dd8cc18" Version="V4">
+                                <uix:NClick.Target>
+                                  <uix:TargetAnchorable BrowserURL="acelerapyme.gob.es/user/login" CVScreenId="55155dc4-fb7f-4626-b73f-a21e12388f11" ContentHash="uthrZpB6jE-NqrfUBgw7YA" DesignTimeRectangle="473, 901, 169, 24" DesignTimeScaleFactor="1.25" ElementType="Text" FuzzyAccuracy="0.91" FuzzySelectorArgument="&lt;webctrl tag='A' aaname='Regístrate ahora' check:innerText='Regístrate ahora' /&gt;" Guid="6dfc5f44-61af-423f-ae54-e2638980f038" InformativeScreenshot="de9b5fad150bfd037c06b089ed087082.png" Reference="tsUS-rIo6kOAWDBlf2_-Qg/Zl8Wf5j0ak6ULGjw1NjV3w" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Inicio sesión | Acelera pyme' /&gt;" SearchSteps="FuzzySelector" Version="V4" Visibility="Interactive">
+                                    <uix:TargetAnchorable.Anchors>
+                                      <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                        <uix:Target CVScreenId="55155dc4-fb7f-4626-b73f-a21e12388f11" DesignTimeRectangle="250, 898, 940, 30" FuzzyAccuracy="0.89" FuzzySelectorArgument="&lt;webctrl parentid='block-acelerapyme-content' tag='DIV' aaname='¿No estás registrado? ' check:innerText='¿No estás registrado? Regístrate ahora' /&gt;" Guid="8d1ed190-8628-4845-af54-9e2e38a752f6" SearchSteps="FuzzySelector" />
+                                      </scg:List>
+                                    </uix:TargetAnchorable.Anchors>
+                                  </uix:TargetAnchorable>
+                                </uix:NClick.Target>
+                                <uix:NClick.VerifyOptions>
+                                  <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                                    <uix:VerifyExecutionOptions.Retry>
+                                      <InArgument x:TypeArguments="x:Boolean" />
+                                    </uix:VerifyExecutionOptions.Retry>
+                                    <uix:VerifyExecutionOptions.Timeout>
+                                      <InArgument x:TypeArguments="x:Double" />
+                                    </uix:VerifyExecutionOptions.Timeout>
+                                  </uix:VerifyExecutionOptions>
+                                </uix:NClick.VerifyOptions>
+                              </uix:NClick>
+                            </Sequence>
+                          </ActivityAction>
+                        </uix:NApplicationCard.Body>
+                        <uix:NApplicationCard.TargetApp>
+                          <uix:TargetApp Area="-9, -9, 1938, 1048" BrowserType="Edge" ContentHash="jc39auh5wUel3ioxpk8Beg" IconBase64="iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAdjSURBVHhe7ZtdaBRXFIBFJAQxkyEEkSIiUkSKSJAiIkWCBBFnN1mKSPEpFBGRUIIP0geRUKQPEiQPsntnK4mUICEUESlFRIKIFBERCRKkhCASRERCEJEgBfudmbPJJnsnOxs36262Bz7iz73nnnPu3J9zZrKu0tKc8H+FWXgPn5QLbjLbDfu02doVnK3PAOBcOxzG2VH4CP+q85+aPf8h3IHT2nztCc6fkFnG4dvzji8EYBqm4Lw2X3uCo/1gYHze8YUAzMLbZs8MuInMVvhKu60dwdGn8AJH3y1yfhFmFOfb4TvtVtuCIxtcL71RwLkJJ+G/wtH8zW8xnrnV7GVSkFAVtS0EoFVntJ0AyM5vd1xxPH/S8bI3m7zssKqoban7AOBQG1xT5mxO50Obj/Aept0Um2FAeqOqqz1hNvfJjIYEZ7/V8ULMDM5vV2ovABjtMHOtTsKkcHxKWbj4FIF+752kOaNsV7W1I25XerPMHjP5o83BYnBazDlJlk1Im6qtHXE6zR44zEyetzlYDALwEW4rB9zUYIObGtqg6qtfmLWeYPYS/l2bg8Wgn/ycUb7HedftGtqk6qtf6jIAGLk+MBQweliNj771xee6m/D74LgOVZ3yfwAS/gboFjD6IY/x4px/pXj+BDyAizpUdQqON4DMVB+GPytwZKV4/muQWsEVHao6BWMbQao9wsvA+HIg6XNQK/D/cJPZb5T1Omz1CMaS8pLvh5Rj7S/lkVSUlOq5E2BMAzgYuJl1/0r5sMR4K7SbE2z/Z0EKKr1Kgw7/5QXnd8msYNQpsBkehQRJnBLiBExOlSdKow7/5aXuA4AxKbgHD8Bm+CLID2SDfAR3IPdIT4O1fR5ypMpygcxBN5HZD1vUjC8nGHQcZBYLq70WWPOT/JSA3ZQnR5+eEk+NzBGtNG1VMyovDL7N9dI7SXnP4dRbDBMsxhYwBpfgZ5wPjjX+LMGTZRCraCJZJvwMe9WcygsB2CuzQAAu24xchhGd+ZSqWkcAZfnMxj0RaDcsyVZT0hxSFZUXxzMJ6IbfbUZakDUsM5zG+cOwX1URAHMDJtD1Oq99JARgDO7Sh0wxvdFNZSq/KTpe9pLW+mT9Ww1dgrwQkcpwj6qYlyYvwzIyA3A/r30MzHmtG1b+TVJdBoCBGnRAqffJeWwxyg7OZdXJdlU3L+iTErjovGjrGwW6WAqBzl5VtbpS9wFwkqYVzgeEFxqrYTacZCYF7bBN1c2L25VplM2MAJykrRyJE/l9o8AG8g7zDEbc1NAmZfUyRY6eLUGtL6z3vbEZFUknx2b49LiqrkBoJ5cquST9Pd9vWYzcHeSKPJarRkH5M0VRCo1OMvs1jt8PMcu85p5Hsr1pgQDskJcly73qon0HyDcE17R/MeRY/dDs+Y9dzz+glP9NEs5z1g65zcnsXgaUiAtxyl1yO5QZFSJnPiduwt8tlyTa9oBNnx3Pf4HjvUqLqiufuMnfWoBNKtvObL4TGDhOAORi86fiqLpIwfmdcIy2EgTRH2cMCcBL6FNaVV35hJnp0FrflYLBl+epzKgS+7bG3aKFvnJnEIrnB/LmOawbCjtUTfmk7gPQ7JmfUCyV3n8KBrcju7MsE0l5nYCEH/t4IifYxCY7qBQ/bj2OxPDbAglWD+MdY7zdqu7zBaXnQIqd8o2P3Yh8vCAAMnujqqIkaUoEAZALjjC1SHdxJM2WJ+7zU2VRAvtRKkeTzGjcaq9sflNslrfgSMl4phOMIoG3jRHFdTbrNHSqGysXHqPjEk2U3loySDFk1p7gjLzevlAqTZ75BccHlVLfMTzE+TE4qW6sXFB2FmTzKzFLC56ASZx5DMMl45nrcEcp7caZ8J+zF8h1+pzrcfFKpFd+L0CJFC4l3Y1VqKguzLDWDQ+oO6ULiuovAHRo0Y5S7yv18asaWErjYd3QH1DX4kndB4ANZCcMKHEyvqqEAEjOQiZqnpCBbgnJFH+n6HjZPWGtL6j3xXllVeWYV1qHEKJTZbcrI+Vlh6gdwvFxpfg9vOoxb9ykOapEZ4o4H37cmDQn7IpqlllJ5JToRKm5E+c7M98SsdMWJZGwxuZgFmboO10hrLZEIPvYgLLLTQ1KdaswMWPHPBXW+oyc/TZFVmg/DiQtmcu502O1IQBxP6qQzVB+5qpYR6WyBYXfHNZtAPiLI9DwSnhsxKz2hieEHDWDQbE0md2R+/WY1YaAjzDuDYibKufKa30kd5LgLfx+okZEPm68ChKluCmvtJOcP53ToSpXXXhSr4ZPq/88z544XJLsFg6qKgLg+UcEZvQvGvBomVhHH7PwSJYLnMX5RkFVrro4SXMMfpDxbbZF4vn3YATOqKogAEE5mX+Uz1bsHS0w+CgMNCVMxT9h1UuNvEqTT3Kt9llZ+OiyX1Vx/Hn+BeUBj9RMfEw/G18vdKiqignOB1dbmQBskX1LPs2z2LgYfJzkcief3va7R7OOIOsp96pLlkDuJUZxkqZDZ6L8dfiYgt3davuI1cYowgC0CXUegGzbf90Dn5m0ebaGAAAAAElFTkSuQmCC" InformativeScreenshot="d04b9cd9c6246a7b168400ba5fc3e3ff.jpg" Reference="tsUS-rIo6kOAWDBlf2_-Qg/LFx8icyhX0qRNBUym0m2hQ" Selector="&lt;html app='msedge.exe' title='Inicio sesión | Acelera pyme' /&gt;" Title="Inicio sesión | Acelera pyme" Url="https://www.acelerapyme.gob.es/user/login" Version="V1" />
+                        </uix:NApplicationCard.TargetApp>
+                        <sap:WorkflowViewStateService.ViewState>
+                          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                            <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                          </scg:Dictionary>
+                        </sap:WorkflowViewStateService.ViewState>
+                      </uix:NApplicationCard>
+                    </Sequence>
+                    <Sequence DisplayName="Postcondetion" sap:VirtualizedContainerService.HintSize="483.20000000000005,934.4" sap2010:WorkflowViewState.IdRef="Sequence_6">
+                      <Sequence.Variables>
+                        <Variable x:TypeArguments="x:Boolean" Name="bool_Postcondetion" />
+                        <Variable x:TypeArguments="x:Boolean" Name="bool_FolderPath" />
+                        <Variable x:TypeArguments="x:Boolean" Name="bool_Precondetion" />
+                      </Sequence.Variables>
+                      <sap:WorkflowViewStateService.ViewState>
+                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                          <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                        </scg:Dictionary>
+                      </sap:WorkflowViewStateService.ViewState>
+                      <ui:UiElementExists DisplayName="Element Exists || Contacto" Exists="[bool_Postcondetion]" sap:VirtualizedContainerService.HintSize="449.6,139.2" sap2010:WorkflowViewState.IdRef="UiElementExists_2">
+                        <ui:UiElementExists.Target>
+                          <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="688e73f6-abcd-4a15-b790-8ca9dea7ae2a" InformativeScreenshot="fd6ff6dc13a06736bc7b53fd66ead1ba" Selector="&lt;html app='msedge.exe' url='https://www.acelerapyme.gob.es/registro-pyme' /&gt;&lt;webctrl class='progress-title' tag='DIV' aaname='                          Contacto           ' /&gt;">
+                            <ui:Target.TimeoutMS>
+                              <InArgument x:TypeArguments="x:Int32" />
+                            </ui:Target.TimeoutMS>
+                            <ui:Target.WaitForReady>
+                              <InArgument x:TypeArguments="ui:WaitForReady" />
+                            </ui:Target.WaitForReady>
+                          </ui:Target>
+                        </ui:UiElementExists.Target>
+                      </ui:UiElementExists>
+                      <If Condition="[bool_Postcondetion]" DisplayName="If || All data not empty" sap:VirtualizedContainerService.HintSize="449.6,735.2" sap2010:WorkflowViewState.IdRef="If_4">
+                        <sap:WorkflowViewStateService.ViewState>
+                          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                            <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                          </scg:Dictionary>
+                        </sap:WorkflowViewStateService.ViewState>
+                        <If.Then>
+                          <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="416,225.6" sap2010:WorkflowViewState.IdRef="Sequence_18">
+                            <sap:WorkflowViewStateService.ViewState>
+                              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                              </scg:Dictionary>
+                            </sap:WorkflowViewStateService.ViewState>
+                            <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="382.4,165.6" sap2010:WorkflowViewState.IdRef="LogMessage_4" Level="Info" Message="[&quot;Postcondetion Success&quot;]" />
+                          </Sequence>
+                        </If.Then>
+                        <If.Else>
+                          <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="416,348" sap2010:WorkflowViewState.IdRef="Sequence_19">
+                            <sap:WorkflowViewStateService.ViewState>
+                              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                              </scg:Dictionary>
+                            </sap:WorkflowViewStateService.ViewState>
+                            <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="382.4,174.4" sap2010:WorkflowViewState.IdRef="LogMessage_5" Level="Error" Message="[&quot;Postcondetion Faild&quot;]" />
+                            <Throw Exception="[new System.Exception(&quot;Postcondetion faild :: &quot;+str_FileName)]" sap:VirtualizedContainerService.HintSize="382.4,113.6" sap2010:WorkflowViewState.IdRef="Throw_2" />
+                          </Sequence>
+                        </If.Else>
+                      </If>
+                    </Sequence>
+                  </Sequence>
+                </TryCatch.Try>
+                <TryCatch.Catches>
+                  <Catch x:TypeArguments="s:Exception" sap:VirtualizedContainerService.HintSize="520,23.2" sap2010:WorkflowViewState.IdRef="Catch`1_1">
+                    <sap:WorkflowViewStateService.ViewState>
+                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                        <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                        <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                      </scg:Dictionary>
+                    </sap:WorkflowViewStateService.ViewState>
+                    <ActivityAction x:TypeArguments="s:Exception">
+                      <ActivityAction.Argument>
+                        <DelegateInArgument x:TypeArguments="s:Exception" Name="exception" />
+                      </ActivityAction.Argument>
+                      <Sequence sap:VirtualizedContainerService.HintSize="416,24.8" sap2010:WorkflowViewState.IdRef="Sequence_21">
+                        <sap:WorkflowViewStateService.ViewState>
+                          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                            <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                            <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                          </scg:Dictionary>
+                        </sap:WorkflowViewStateService.ViewState>
+                        <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="382.4,174.4" sap2010:WorkflowViewState.IdRef="LogMessage_6" Level="Error" Message="[exception.Message]">
+                          <sap:WorkflowViewStateService.ViewState>
+                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                              <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                            </scg:Dictionary>
+                          </sap:WorkflowViewStateService.ViewState>
+                        </ui:LogMessage>
+                        <Throw Exception="[New System.Exception(str_FileName + &quot; - &quot;+exception.Source+&quot; - &quot;+exception.Message)]" sap:VirtualizedContainerService.HintSize="382.4,113.6" sap2010:WorkflowViewState.IdRef="Throw_3" />
+                      </Sequence>
+                    </ActivityAction>
+                  </Catch>
+                  <Catch x:TypeArguments="ui:BusinessRuleException" sap:VirtualizedContainerService.HintSize="520,23.2" sap2010:WorkflowViewState.IdRef="Catch`1_2">
+                    <sap:WorkflowViewStateService.ViewState>
+                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                        <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                        <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                      </scg:Dictionary>
+                    </sap:WorkflowViewStateService.ViewState>
+                    <ActivityAction x:TypeArguments="ui:BusinessRuleException">
+                      <ActivityAction.Argument>
+                        <DelegateInArgument x:TypeArguments="ui:BusinessRuleException" Name="exception" />
+                      </ActivityAction.Argument>
+                      <Sequence sap:VirtualizedContainerService.HintSize="416,24.8" sap2010:WorkflowViewState.IdRef="Sequence_22">
+                        <sap:WorkflowViewStateService.ViewState>
+                          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                            <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                            <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                          </scg:Dictionary>
+                        </sap:WorkflowViewStateService.ViewState>
+                        <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="382.4,174.4" sap2010:WorkflowViewState.IdRef="LogMessage_7" Level="Error" Message="[exception.Message]" />
+                        <Throw Exception="[New BusinessRuleException(str_FileName + &quot; - &quot;+exception.Source+&quot; - &quot;+exception.Message)]" sap:VirtualizedContainerService.HintSize="382.4,113.6" sap2010:WorkflowViewState.IdRef="Throw_4" />
+                      </Sequence>
+                    </ActivityAction>
+                  </Catch>
+                </TryCatch.Catches>
+              </TryCatch>
+            </Sequence>
+          </ActivityAction>
+        </ui:RetryScope.ActivityBody>
+        <ui:RetryScope.Condition>
+          <ActivityFunc x:TypeArguments="x:Boolean" />
+        </ui:RetryScope.Condition>
+      </ui:RetryScope>
+      <ui:LogMessage DisplayName="Log Message || End " sap:VirtualizedContainerService.HintSize="628.8,165.6" sap2010:WorkflowViewState.IdRef="LogMessage_8" Level="Info" Message="[str_FileName+&quot; Work Flow End With Duration Time = &quot;+(Now-DateTime_StartDate).Seconds.ToString]" />
+    </Sequence>
+  </Sequence>
+</Activity>

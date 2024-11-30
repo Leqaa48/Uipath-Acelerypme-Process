@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="7MRr3gZlIkCfWzUcwDvK7g" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="yopmail.com/wm" CVScreenId="4e26c623-9c69-4c51-85b4-c4a3946d3dc5" DesignTimeRectangle="190, 59, 1285, 33" DesignTimeScaleFactor="1.25" ElementType="InputBox" FullSelectorArgument="&lt;ctrl name='Inbox - Microsoft Edge' role='pane' /&gt;&lt;ctrl name='App bar' role='tool bar' /&gt;&lt;ctrl name='Address and search bar' role='editable text' /&gt;" FuzzyAccuracy="0.91" FuzzySelectorArgument="&lt;ctrl name='Inbox - Microsoft Edge' role='pane' /&gt;&lt;ctrl name='App bar' role='tool bar' /&gt;&lt;ctrl name='Address and search bar' role='editable text' automationid='' /&gt;" Guid="cecb6aa7-80c1-4bdb-8c37-0cb8e9ecf588" ScopeSelectorArgument="&lt;wnd app='msedge.exe' cls='Chrome_WidgetWin_1' title='Inbox - Profile 1 - Microsoft​ Edge' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="4e26c623-9c69-4c51-85b4-c4a3946d3dc5" CvTextArea="192, 66, 193, 20" CvTextArgument="https://yopmail.com/wm" CvType="Text" DesignTimeRectangle="9, 51, 1920, 48" FullSelectorArgument="&lt;ctrl name='Inbox - Microsoft Edge' role='pane' /&gt;&lt;ctrl name='App bar' role='tool bar' /&gt;&lt;ctrl role='pane' /&gt;" FuzzyAccuracy="0.9" FuzzySelectorArgument="&lt;ctrl name='Inbox - Microsoft Edge' role='pane' /&gt;&lt;ctrl name='App bar' role='tool bar' /&gt;&lt;ctrl role='pane' automationid='' check:fulltext='Back&amp;#xD;&amp;#xA;Refresh&amp;#xD;&amp;#xA;https://yopmail.com/wm&amp;#xD;&amp;#xA;Extensions&amp;#xD;&amp;#xA;Split screen&amp;#xD;&amp;#xA;Favorites&amp;#xD;&amp;#xA;Collections&amp;#xD;&amp;#xA;Browser essentials&amp;#xD;&amp;#xA;Settings and more (Alt+F)&amp;#xD;&amp;#xA;Copilot (Ctrl+Shift+.)' /&gt;" Guid="15344c3d-2add-41a8-b8de-a4d61046e401" SearchSteps="Selector, FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="c29e38ec42d5eda0771eff6b897fa5f9.png" xmlns="">0VUgpEAYD4EqJtdef7V95Cw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

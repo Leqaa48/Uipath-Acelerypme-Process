@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="gEKxINKb3UqzqXGUBQhuwQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="acelerapyme.gob.es/registro-pyme" CVScreenId="9d5e6069-bc9d-4772-b730-8a041aec3ca7" CvElementArea="611, 514, 469, 57" CvType="InputBox" DesignTimeRectangle="614, 516, 464, 53" DesignTimeScaleFactor="1.25" ElementType="DropDown" FuzzySelectorArgument="&lt;webctrl id='edit-commmunity-province-location--HMIjrpfBSDk-shs-0-1' tag='SELECT' type='' class='shs-select form-select form-element form-element--type-select required' aaname='' /&gt;" Guid="c27aff16-4be2-421e-9447-f8c5bb32a5af" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Registro pyme | Acelera pyme' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="ec09d741d7be360d79b02cd14f11f33c.png" xmlns="">0R6_QvoS0EkaH-YdKqDIE6g</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">GetAttributeGeneric</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

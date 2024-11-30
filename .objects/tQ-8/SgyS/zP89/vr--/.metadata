@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Entre 3 y 9 trabajadores",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "vr--V6mUEkSU77Rkyhz3WA",
+  "Reference": "tsUS-rIo6kOAWDBlf2_-Qg/vr--V6mUEkSU77Rkyhz3WA",
+  "ParentRef": "tsUS-rIo6kOAWDBlf2_-Qg/zP89OFYYjEKNAcEj-iPG6g",
+  "Created": "2024-11-04T13:07:42.1742685Z",
+  "Updated": "2024-11-04T13:07:42.1742685Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.6.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.11.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

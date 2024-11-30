@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Guarda y accede como no…",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "7Jonb8ZkQ0moR91hG7ajQA",
+  "Reference": "tsUS-rIo6kOAWDBlf2_-Qg/7Jonb8ZkQ0moR91hG7ajQA",
+  "ParentRef": "tsUS-rIo6kOAWDBlf2_-Qg/VvtugyZ5zEWyTUiHfAjNLg",
+  "Created": "2024-11-05T10:38:15.7928622Z",
+  "Updated": "2024-11-05T10:38:15.7928622Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.6.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.11.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

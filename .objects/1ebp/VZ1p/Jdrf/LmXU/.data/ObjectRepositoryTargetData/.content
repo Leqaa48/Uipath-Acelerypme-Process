@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="DYZ9eUdZK0CA89IPSPv5Zw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="yopmail.com" CVScreenId="9504a06d-4770-4938-89d9-f4f7c300b80d" DesignTimeRectangle="609, 632, 45, 45" DesignTimeScaleFactor="1.25" FullSelectorArgument="&lt;webctrl aaname='Check Inbox @yopmail.com' tag='BUTTON' /&gt;&lt;webctrl parentid='refreshbut' tag='I' /&gt;" FuzzyAccuracy="0.9" FuzzySelectorArgument="&lt;webctrl aaname='Check Inbox @yopmail.com' tag='BUTTON' /&gt;&lt;webctrl parentid='refreshbut' tag='I' type='' class='material-icons-outlined f36' aaname='' check:text='' /&gt;" Guid="3d76385a-f81d-419e-b92d-ebd813a8864f" ScopeSelectorArgument="&lt;html app='msedge.exe' url='https://yopmail.com/*' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="9504a06d-4770-4938-89d9-f4f7c300b80d" DesignTimeRectangle="161, 601, 494, 19" ElementType="Text" FuzzyAccuracy="0.9" FuzzySelectorArgument="&lt;webctrl tag='H2' aaname='Type the Email name of your choice' check:innerText='Type the Email name of your choice' /&gt;" Guid="62e22825-f578-48b0-a74c-ecf19b7cfd53" SearchSteps="FuzzySelector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="e1759c78d0d389de5afae2eafee2608b.png" xmlns="">0jdA4RLPWeUGSst_nSQyVjg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

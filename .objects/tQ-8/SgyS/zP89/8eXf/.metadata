@@ -1,0 +1,13 @@
+﻿{
+  "Name": "× Mensaje de error El c…",
+  "Type": "Element",
+  "Id": "8eXflKXMwEO03b5AA0dyeQ",
+  "Reference": "tsUS-rIo6kOAWDBlf2_-Qg/8eXflKXMwEO03b5AA0dyeQ",
+  "ParentRef": "tsUS-rIo6kOAWDBlf2_-Qg/zP89OFYYjEKNAcEj-iPG6g",
+  "Created": "2024-11-04T11:41:23.7084444Z",
+  "Updated": "2024-11-04T11:41:23.7084444Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.6.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.11.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

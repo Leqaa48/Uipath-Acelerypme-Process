@@ -1,0 +1,13 @@
+﻿{
+  "Name": "dummy_data_5_1 - Notepad",
+  "Type": "Screen",
+  "Id": "D-ZObSrnX0uIgOcZsbDn-g",
+  "Reference": "tsUS-rIo6kOAWDBlf2_-Qg/D-ZObSrnX0uIgOcZsbDn-g",
+  "ParentRef": "tsUS-rIo6kOAWDBlf2_-Qg/s4GXHuINp0OMJKMcBAFA7w",
+  "Created": "2024-11-04T07:49:50.1989254Z",
+  "Updated": "2024-11-04T07:49:50.1989254Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.6.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.11.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

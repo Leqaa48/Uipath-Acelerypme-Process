@@ -1,0 +1,14 @@
+﻿{
+  "Name": "No deseo contestar",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "YYFWOa2kI0yG3g9M2F-vzw",
+  "Reference": "tsUS-rIo6kOAWDBlf2_-Qg/YYFWOa2kI0yG3g9M2F-vzw",
+  "ParentRef": "tsUS-rIo6kOAWDBlf2_-Qg/zP89OFYYjEKNAcEj-iPG6g",
+  "Created": "2024-11-04T10:30:11.0011607Z",
+  "Updated": "2024-11-04T10:30:11.0011607Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.6.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.11.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

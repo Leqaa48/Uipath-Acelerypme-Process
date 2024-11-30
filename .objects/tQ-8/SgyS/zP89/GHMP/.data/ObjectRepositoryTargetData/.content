@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="auqaVz6cGEe6xjn-5CSNHA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="acelerapyme.gob.es/registro-pyme" CVScreenId="5e3a4f4f-cbd4-4429-a761-f251a55caf4d" DesignTimeRectangle="614, 752, 927, 54" DesignTimeScaleFactor="1.25" ElementType="DropDown" FuzzyAccuracy="0.9" FuzzySelectorArgument="&lt;webctrl id='edit-autonomus--sCWiVmvzo-k' tag='SELECT' type='' aaname='Soy autónomo/a' /&gt;" Guid="c413b03a-2905-41c3-bce2-00e3aee85e9d" ImageBase64="" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Registro pyme | Acelera pyme' /&gt;" SearchSteps="FuzzySelector" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="5e3a4f4f-cbd4-4429-a761-f251a55caf4d" DesignTimeRectangle="614, 709, 171, 30" ElementType="Text" FuzzyAccuracy="0.9" FuzzySelectorArgument="&lt;webctrl aria-label='  Soy autónomo/a&amp;#xA;' tag='LABEL' aaname='Soy autónomo/a' check:innerText='Soy autónomo/a' /&gt;" Guid="265d9a68-76ad-4630-83f8-f3ea29d39431" SearchSteps="FuzzySelector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="3743930a4d4765063622788b3b888678.png" xmlns="">0LO-06G2ZrkqIRyU8pGnv4A</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">SelectItem</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

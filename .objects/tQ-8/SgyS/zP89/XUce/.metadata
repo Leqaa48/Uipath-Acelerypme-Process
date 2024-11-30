@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Select Item  Country",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Id": "XUceHlS87EamJdZooMJPnQ",
+  "Reference": "tsUS-rIo6kOAWDBlf2_-Qg/XUceHlS87EamJdZooMJPnQ",
+  "ParentRef": "tsUS-rIo6kOAWDBlf2_-Qg/zP89OFYYjEKNAcEj-iPG6g",
+  "Created": "2024-11-04T12:20:46.3486163Z",
+  "Updated": "2024-11-04T12:20:46.3486163Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.6.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.11.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

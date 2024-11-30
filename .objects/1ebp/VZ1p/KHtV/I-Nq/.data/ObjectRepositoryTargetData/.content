@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="gceYPLk5cEO7ag7ImVUudw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="yopmail.com/wm" CVScreenId="d8bf3bfb-f60d-4041-a7c4-2e9e052ab7df" DesignTimeRectangle="602, 456, 921, 265" DesignTimeScaleFactor="1.25" FullSelectorArgument="&lt;webctrl id='*mail' tag='IFRAME' /&gt;&lt;webctrl aaname='Bienvenido/a a Acelera pyme' tag='DIV' /&gt;&lt;nav up='3' /&gt;&lt;webctrl id='mail' tag='DIV' /&gt;&lt;webctrl tag='PRE' parentid='mail' /&gt;" FuzzyAccuracy="0.9" FuzzySelectorArgument="&lt;webctrl id='ifmail' tag='IFRAME' /&gt;&lt;webctrl tag='PRE' type='' class='' /&gt;" Guid="6a1c6a9f-89aa-4918-9f19-681c9483cf9f" ImageBase64="" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Inbox' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="d8bf3bfb-f60d-4041-a7c4-2e9e052ab7df" DesignTimeRectangle="600, 314, 452, 26" ElementType="Text" FuzzyAccuracy="0.9" FuzzySelectorArgument="&lt;webctrl id='ifmail' tag='IFRAME' /&gt;&lt;webctrl aaname='Bienvenido/a a Acelera pyme' tag='DIV' check:innerText='Bienvenido/a a Acelera pyme' /&gt;" Guid="b037b85c-30de-44b8-bca6-82dc461d43b3" SearchSteps="FuzzySelector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="2a7b8389e057edc3a4d7740f984de51f.png" xmlns="">0yNHuMrjXW0mcX2qRuPJ_LA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">GetText</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

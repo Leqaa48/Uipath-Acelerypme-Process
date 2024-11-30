@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="OfQ9c3AvjEGYahIrUJCtfg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="acelerapyme.gob.es/registro-pyme" CVScreenId="a8b41770-ee22-4f68-87af-eec42d552068" DesignTimeRectangle="614, 713, 695, 53" DesignTimeScaleFactor="1.25" ElementType="DropDown" FuzzyAccuracy="0.9" FuzzySelectorArgument="&lt;webctrl tag='SELECT' aaname='¿Cómo nos has conocido?' /&gt;" Guid="15aeadbc-85ce-4a45-af97-781cb3dcdd1c" ImageBase64="" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Registro pyme | Acelera pyme' /&gt;" SearchSteps="FuzzySelector" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="a8b41770-ee22-4f68-87af-eec42d552068" DesignTimeRectangle="614, 670, 271, 30" ElementType="Text" FuzzyAccuracy="0.9" FuzzySelectorArgument="&lt;webctrl tag='LABEL' aaname='¿Cómo nos has conocido?' check:innerText='¿Cómo nos has conocido?' /&gt;" Guid="754bced7-d5e9-4a7e-a06a-4ef3fb8817c5" SearchSteps="FuzzySelector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="30428f159ab7fbc11c561297b23d12dd.png" xmlns="">0S8CSQmsJy0G2YUFeU2RH3A</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">SelectItem</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

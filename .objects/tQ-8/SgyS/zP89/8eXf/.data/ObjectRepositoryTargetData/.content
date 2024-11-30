@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="FtfHPf0k1EeWGyCkqhUbmQ" Reference="tsUS-rIo6kOAWDBlf2_-Qg/8eXflKXMwEO03b5AA0dyeQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="acelerapyme.gob.es/registro-pyme" DesignTimeRectangle="250, 168, 1420, 62" DesignTimeScaleFactor="1.25" FuzzyAccuracy="0.9" FuzzySelectorArgument="&lt;webctrl aria-role='alert' tag='DIV' type='' class='alert alert-error alert-danger alert-dismissible fade show' /&gt;" Guid="88047030-fc4a-4213-9abb-c42749f06ce0" ImageBase64="" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Registro pyme | Acelera pyme' /&gt;" SearchSteps="FuzzySelector" Version="V4" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="0fc7f13e82ca948431dc6af86d3164d1.png" xmlns="">0KM32upBzekqjV8YgaOUGAw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

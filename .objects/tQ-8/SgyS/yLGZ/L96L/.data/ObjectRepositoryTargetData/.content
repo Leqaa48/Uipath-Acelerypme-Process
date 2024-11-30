@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="ZApZb54XG0anAr6kxpIiNQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="acelerapyme.gob.es/registro-pyme" CVScreenId="02eb67fc-fdc4-4548-b497-6c7f387a7a9b" DesignTimeRectangle="614, 714, 274, 30" DesignTimeScaleFactor="1.25" ElementType="Text" FuzzyAccuracy="0.9" FuzzySelectorArgument="&lt;webctrl aria-role='radio' tag='LABEL' aaname='250 o más trabajadores' check:innerText='250 o más trabajadores' /&gt;" Guid="6fea8f0e-a7d0-495f-848f-9e5be37a96a8" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Registro pyme | Acelera pyme' /&gt;" SearchSteps="FuzzySelector" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="02eb67fc-fdc4-4548-b497-6c7f387a7a9b" DesignTimeRectangle="614, 471, 275, 30" ElementType="Text" FuzzyAccuracy="0.9" FuzzySelectorArgument="&lt;webctrl aaname='Número de trabajadores' tag='SPAN' check:innerText='Número de trabajadores' /&gt;" Guid="89191e8a-dc7a-4e93-b8ab-0ba23ff11ea6" SearchSteps="FuzzySelector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="4a55afd47b15e6bf34775b7b0ff041c9.png" xmlns="">0RjAdXdzQCECHe-ub0pf0-A</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

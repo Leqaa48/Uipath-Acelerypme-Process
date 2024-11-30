@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="omS3mwIobUGYtLELBDKSoA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="acelerapyme.gob.es/user/reset/1106324/1730788952/gagX6cYDCpNTsmra0PWx-d_prKYJ_RbqZ-81uNPvYGU" CVScreenId="7733e34a-4a05-45dd-b203-6d439d54678a" DesignTimeRectangle="250, 406, 573, 53" DesignTimeScaleFactor="1.25" ElementType="InputBoxPassword" FuzzyAccuracy="0.9" FuzzySelectorArgument="&lt;webctrl id='edit-pass-pass1' tag='INPUT' type='password' aaname='Contraseña' /&gt;" Guid="adb82dac-cc5e-4b35-917c-0b6a59af42eb" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Choose a new password | Acelera pyme' /&gt;" SearchSteps="FuzzySelector" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="7733e34a-4a05-45dd-b203-6d439d54678a" DesignTimeRectangle="250, 361, 139, 30" ElementType="Text" FuzzyAccuracy="0.9" FuzzySelectorArgument="&lt;webctrl tag='LABEL' aaname='Contraseña' check:innerText='Contraseña' /&gt;" Guid="7e448049-c905-4679-ba73-2fac9a8fed26" SearchSteps="FuzzySelector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="3bb230bc819b5b3616544575915fd6fd.png" xmlns="">0vOf1IVERMUm86TzFOJK3kA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

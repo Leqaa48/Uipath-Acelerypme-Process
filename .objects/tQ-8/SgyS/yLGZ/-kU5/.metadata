@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Barcelona",
+  "Type": "Element",
+  "TaxonomyType": "Dropdown",
+  "Id": "-kU5sybyNEut0l7gOqQYyA",
+  "Reference": "tsUS-rIo6kOAWDBlf2_-Qg/-kU5sybyNEut0l7gOqQYyA",
+  "ParentRef": "tsUS-rIo6kOAWDBlf2_-Qg/yLGZ6HxBMUq5Rgw-9kz39A",
+  "Created": "2024-11-04T16:02:23.7601627Z",
+  "Updated": "2024-11-04T16:02:23.7601627Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.6.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.11.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Cantabria",
+  "Type": "Element",
+  "TaxonomyType": "Dropdown",
+  "Id": "MjGxieMIlki7bbscwrm5tA",
+  "Reference": "tsUS-rIo6kOAWDBlf2_-Qg/MjGxieMIlki7bbscwrm5tA",
+  "ParentRef": "tsUS-rIo6kOAWDBlf2_-Qg/yLGZ6HxBMUq5Rgw-9kz39A",
+  "Created": "2024-11-04T15:35:37.9794195Z",
+  "Updated": "2024-11-04T15:35:37.9794195Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.6.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.11.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

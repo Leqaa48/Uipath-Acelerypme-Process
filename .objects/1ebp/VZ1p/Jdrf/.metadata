@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Edge YOPmail - Disposable Email Address - Ano",
+  "Type": "Screen",
+  "Id": "JdrfriCkak-uyllzYF8PZA",
+  "Reference": "tsUS-rIo6kOAWDBlf2_-Qg/JdrfriCkak-uyllzYF8PZA",
+  "ParentRef": "tsUS-rIo6kOAWDBlf2_-Qg/VZ1pNTShyEWLKUGcQvdtcA",
+  "Created": "2024-11-05T06:48:22.977527Z",
+  "Updated": "2024-11-05T06:48:22.977527Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.6.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.11.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

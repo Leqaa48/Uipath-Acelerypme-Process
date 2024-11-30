@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="0RR8izZeDEuI0DF8zsy3tQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="yopmail.com/wm" CVScreenId="d8bf3bfb-f60d-4041-a7c4-2e9e052ab7df" DesignTimeRectangle="191, 409, 16, 17" DesignTimeScaleFactor="1.25" ElementType="CheckBox" FuzzyAccuracy="0.9" FuzzySelectorArgument="&lt;webctrl id='ifinbox' tag='IFRAME' /&gt;&lt;webctrl tag='INPUT' type='checkbox' /&gt;" Guid="f9d21421-b0ff-4b65-80fb-cfa692dd7829" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Inbox' /&gt;" SearchSteps="FuzzySelector" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="d8bf3bfb-f60d-4041-a7c4-2e9e052ab7df" DesignTimeRectangle="225, 400, 292, 34" ElementType="Text" FuzzyAccuracy="0.9" FuzzySelectorArgument="&lt;webctrl id='ifinbox' tag='IFRAME' /&gt;&lt;webctrl tag='SPAN' aaname='Acelerapyme' check:innerText='Acelerapyme' /&gt;" Guid="39b6fa5e-eba2-433d-8d66-977457a3db06" SearchSteps="FuzzySelector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="0d98974690ca83e892a6c90f0f81594c.png" xmlns="">0ZLmQiaAX4EqEKYyc9SxH-Q</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

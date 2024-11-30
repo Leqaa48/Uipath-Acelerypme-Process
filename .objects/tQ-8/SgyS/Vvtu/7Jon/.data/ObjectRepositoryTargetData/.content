@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="amVi36_FW0KS424hVKVBBQ" Reference="tsUS-rIo6kOAWDBlf2_-Qg/7Jonb8ZkQ0moR91hG7ajQA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="acelerapyme.gob.es/user/reset/1106324/1730788952/gagX6cYDCpNTsmra0PWx-d_prKYJ_RbqZ-81uNPvYGU" CVScreenId="c268a975-8eff-48c4-9e7a-9892e4f7dc52" DesignTimeRectangle="250, 856, 635, 49" DesignTimeScaleFactor="1.25" ElementType="Button" FullSelectorArgument="&lt;webctrl id='edit-submit' tag='INPUT' aaname='Guarda*' /&gt;" FuzzyAccuracy="0.9" Guid="81affeea-ba1d-4b20-abd6-e277c678e2c4" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Choose a new password | Acelera pyme' /&gt;" SearchSteps="Selector" Version="V4" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="5c6e3fb8042b4debf79b2858d828e578.png" xmlns="">0sK59OP-adEyPb_-pmR6BIA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

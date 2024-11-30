@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Bienvenidoa a Acelera …",
+  "Type": "Element",
+  "Id": "I-NqTS7xg0ugQFrJ9LKDqA",
+  "Reference": "tsUS-rIo6kOAWDBlf2_-Qg/I-NqTS7xg0ugQFrJ9LKDqA",
+  "ParentRef": "tsUS-rIo6kOAWDBlf2_-Qg/KHtVyXEXk0uklXpxMY4T3w",
+  "Created": "2024-11-05T07:34:30.1281799Z",
+  "Updated": "2024-11-05T07:34:30.1281799Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.6.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.11.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

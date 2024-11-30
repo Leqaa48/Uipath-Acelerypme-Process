@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="_q_oY6BEqEet979cs2y1Tg" Reference="tsUS-rIo6kOAWDBlf2_-Qg/Jwmb9qWajES-i4k5o7iGcA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="acelerapyme.gob.es/registro-pyme" CVScreenId="b70a2910-5762-425c-923c-1fe1d5f4f2c1" DesignTimeRectangle="614, 619, 464, 53" DesignTimeScaleFactor="1.25" ElementType="DropDown" FullSelectorArgument="&lt;webctrl tag='LABEL' aaname='Comunidad/Provincia/Localidad' /&gt;&lt;nav up='1' /&gt;&lt;webctrl tag='SELECT' id='edit-commmunity-province-location--fSwfWmRiXd8-shs-0-0' /&gt;" FuzzyAccuracy="0.9" Guid="537e70e7-a313-4c22-812c-5f2f2a530e83" ImageBase64="" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Registro pyme | Acelera pyme' /&gt;" SearchSteps="Selector" Version="V4" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="1fa8e097c1b48b7cd9db9b71681dd7a8.png" xmlns="">0oVAu8swPLUm9KvREyStdWA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

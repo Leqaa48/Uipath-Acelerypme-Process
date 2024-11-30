@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Back Refresh httpsyo…",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Id": "khoXJgkxNkq5Q5Wshir0JQ",
+  "Reference": "tsUS-rIo6kOAWDBlf2_-Qg/khoXJgkxNkq5Q5Wshir0JQ",
+  "ParentRef": "tsUS-rIo6kOAWDBlf2_-Qg/KHtVyXEXk0uklXpxMY4T3w",
+  "Created": "2024-11-05T08:11:18.5879669Z",
+  "Updated": "2024-11-05T08:11:18.5879669Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.6.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.11.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

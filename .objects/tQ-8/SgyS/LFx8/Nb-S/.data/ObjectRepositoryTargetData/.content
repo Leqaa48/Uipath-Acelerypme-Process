@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="YbIITEzdKk-BK77FBD4DEg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="acelerapyme.gob.es/user/login" CVScreenId="e10e4180-21e4-46f4-97d8-292b5e54f5d3" CvTextArea="471, 902, 169, 22" CvTextArgument="Regístrate ahora" CvType="Text" DesignTimeRectangle="473, 901, 169, 24" DesignTimeScaleFactor="1.25" ElementType="Text" FuzzySelectorArgument="&lt;webctrl parentid='block-acelerapyme-content' tag='A' type='' class='animated-link arrow-right_blue' aaname='Regístrate ahora' check:innerText='Regístrate ahora' /&gt;" Guid="cce56613-2cbd-4b1b-8a10-fa3f7d334a0c" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Inicio sesión | Acelera pyme' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="e10e4180-21e4-46f4-97d8-292b5e54f5d3" DesignTimeRectangle="250, 898, 940, 30" FuzzyAccuracy="0.9" FuzzySelectorArgument="&lt;webctrl type='' parentid='block-acelerapyme-content' tag='DIV' class='' aaname='¿No estás registrado? ' check:innerText='¿No estás registrado? Regístrate ahora' /&gt;" Guid="b23fe969-4d19-4362-bb92-dd4e52fa79fc" SearchSteps="FuzzySelector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="d47035b0bff7a84b88f1dae1963655c9.png" xmlns="">0K5z2GJfMUE66GQ31cblDfw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

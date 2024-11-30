@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Edge Inicio sesión  Acelera pyme",
+  "Type": "Screen",
+  "Id": "LFx8icyhX0qRNBUym0m2hQ",
+  "Reference": "tsUS-rIo6kOAWDBlf2_-Qg/LFx8icyhX0qRNBUym0m2hQ",
+  "ParentRef": "tsUS-rIo6kOAWDBlf2_-Qg/SgyS_MdCVEWWTMrkhcj3Fw",
+  "Created": "2024-11-04T09:43:29.8461015Z",
+  "Updated": "2024-11-04T09:43:29.8461015Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.6.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.11.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

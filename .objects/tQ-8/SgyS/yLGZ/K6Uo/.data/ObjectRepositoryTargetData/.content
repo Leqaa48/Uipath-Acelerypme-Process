@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="RB6ijr5YFU6btWHjV7fWWQ" Reference="tsUS-rIo6kOAWDBlf2_-Qg/K6Uo9rySeEu3taB28KwiHg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="acelerapyme.gob.es/registro-pyme" CVScreenId="d134e44e-6324-40b4-998b-4195d2d80df6" DesignTimeRectangle="0, 0, 1938, 1048" DesignTimeScaleFactor="1.25" ElementType="Text" FullSelectorArgument="&lt;webctrl tag='LABEL' aaname='Código CNAE' /&gt;&lt;nav up='1' /&gt;&lt;webctrl tag='SPAN' parentid='edit_cnae_code*' /&gt;" FuzzyMatches="10000" Guid="6ddac155-b1e9-4e5f-9be6-891cb8b982c8" ImageBase64="" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Registro pyme | Acelera pyme' /&gt;" SearchSteps="Selector" Version="V4" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="dc98d328bc8bd2ca6d6b17606f849087.png" xmlns="">0a0AQZAQ9LUOW0MPvqLzFzA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

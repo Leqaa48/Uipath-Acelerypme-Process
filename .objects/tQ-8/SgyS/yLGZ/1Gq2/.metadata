@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Consentimiento expreso …",
+  "Type": "Element",
+  "TaxonomyType": "Checkbox",
+  "Id": "1Gq2vQLHL0uIGoAywxL9zw",
+  "Reference": "tsUS-rIo6kOAWDBlf2_-Qg/1Gq2vQLHL0uIGoAywxL9zw",
+  "ParentRef": "tsUS-rIo6kOAWDBlf2_-Qg/yLGZ6HxBMUq5Rgw-9kz39A",
+  "Created": "2024-11-04T14:04:27.3493076Z",
+  "Updated": "2024-11-04T14:04:27.3493076Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.6.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.11.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

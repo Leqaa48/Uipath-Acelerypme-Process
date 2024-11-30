@@ -1,0 +1,12 @@
+﻿{
+  "Name": "Edge YOPmail - Disposable Email Address - Anonymous and temporary inbox",
+  "Type": "App",
+  "Id": "1ebp7qvg9U-mNTVUYtyQuA",
+  "Reference": "tsUS-rIo6kOAWDBlf2_-Qg/1ebp7qvg9U-mNTVUYtyQuA",
+  "Created": "2024-11-05T06:48:22.9482724Z",
+  "Updated": "2024-11-05T06:48:22.9482724Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.6.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.11.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}
